@@ -26,5 +26,5 @@ const options = {
 
 
 axios(options)
-    .then((response) => console.log(`\n*** Response ***\n ${response}`))
+    .then((response) => console.log(`\n*** Response ***\n ${JSON.stingresponse}`))
     .catch((error) => console.log(`\n*** Error ***\n ${error}`))
